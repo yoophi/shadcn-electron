@@ -1,10 +1,11 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
 import icon from '../../assets/icon.svg';
-import './App.css';
+// import './App.css';
 
 function Hello() {
   return (
     <div>
+      <div className="text-4xl">Hello, world!</div>
       <div className="Hello">
         <img width="200" alt="icon" src={icon} />
       </div>
