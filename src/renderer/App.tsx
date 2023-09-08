@@ -1,11 +1,15 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
 import icon from '../../assets/icon.svg';
 // import './App.css';
+import { Button } from "@/components/ui/button"
+
+
 
 function Hello() {
   return (
     <div>
       <div className="text-4xl">Hello, world!</div>
+      <Button>Click me</Button>
       <div className="Hello">
         <img width="200" alt="icon" src={icon} />
       </div>
